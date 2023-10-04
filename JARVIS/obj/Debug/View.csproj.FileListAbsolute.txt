@@ -1,0 +1,220 @@
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\Template.Properties.Resources.resources
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\View.csproj.GenerateResource.cache
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\bin\Debug\Template.exe.config
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\bin\Debug\Template.exe
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\bin\Debug\Template.pdb
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\bin\Debug\EPPlus.dll
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\bin\Debug\EPPlus.xml
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\TemplateNamespace.Form1.resources
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\View.csproj.CopyComplete
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\Template.exe
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\corrector1.0\obj\Debug\Template.pdb
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\bin\Debug\Template.exe.config
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\bin\Debug\Template.exe
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\bin\Debug\Template.pdb
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\bin\Debug\EPPlus.dll
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\bin\Debug\EPPlus.xml
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\View.csprojAssemblyReference.cache
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\TemplateNamespace.Form1.resources
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\Template.Properties.Resources.resources
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\View.csproj.GenerateResource.cache
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\View.csproj.CopyComplete
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\Template.exe
+D:\A_KIM\Visual Studio WindowsForm Template\corrector1.0\Template\obj\Debug\Template.pdb
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\bin\Debug\Template.exe.config
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\bin\Debug\Template.exe
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\bin\Debug\Template.pdb
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\bin\Debug\EPPlus.dll
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\bin\Debug\EPPlus.xml
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\View.csprojAssemblyReference.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\TemplateNamespace.Form1.resources
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\Template.Properties.Resources.resources
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\View.csproj.GenerateResource.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\View.csproj.CopyComplete
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\Template.exe
+D:\A_KIM\JAQHES\Proyectos\Bitacora\Bitacora\obj\Debug\Template.pdb
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\bin\Debug\JARVIS_MANAGER.exe.config
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\bin\Debug\JARVIS_MANAGER.exe
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\bin\Debug\JARVIS_MANAGER.pdb
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\bin\Debug\EPPlus.dll
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\bin\Debug\EPPlus.xml
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\JARVIS_MANAGER.Properties.Resources.resources
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\JARVIS_MANAGER.exe
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\JARVIS_MANAGER.pdb
+D:\A_KIM\JAQHES\Proyectos\Bitacora\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe.config
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.pdb
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.xml
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.Properties.Resources.resources
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.exe
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.pdb
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+D:\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe.config
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.pdb
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.xml
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.Properties.Resources.resources
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.exe
+D:\OneDrive - INTERCONEXION ELECTRICA S.A. E.S.P\DATA BACKUP\D\A_KIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.pdb
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe.config
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.exe
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\JARVIS_MANAGER.pdb
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.xml
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.Properties.Resources.resources
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.exe
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVIS_MANAGER.pdb
+D:\AKIM\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form5.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form5.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form6.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form7.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\EPPlus.xml
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe.config
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe
+D:\JAQHES\Proyectos\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.pdb
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.Properties.Resources.resources
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.exe
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.pdb
+D:\JAQHES\Proyectos\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form8.resources
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe.config
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.pdb
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\EPPlus.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\EPPlus.xml
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\View.csprojAssemblyReference.cache
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form5.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form6.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form8.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form7.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.Properties.Resources.resources
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.exe
+E:\Aquiles\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.pdb
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe.config
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.pdb
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\EPPlus.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\EPPlus.xml
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.AssemblyReference.cache
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form5.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form6.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form8.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form7.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.Properties.Resources.resources
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.exe
+G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.pdb

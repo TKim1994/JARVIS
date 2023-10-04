@@ -1,0 +1,13 @@
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\bin\Debug\VIT_REP_INPUT_IA_GUI.exe.config
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\bin\Debug\VIT_REP_INPUT_IA_GUI.exe
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\bin\Debug\VIT_REP_INPUT_IA_GUI.pdb
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\bin\Debug\EPPlus.dll
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\bin\Debug\EPPlus.xml
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\corrector1.0_GUI.csprojAssemblyReference.cache
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\VIT_REP_INPUT_IA_GUI.frmCRRECTR.resources
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\VIT_REP_INPUT_IA_GUI.Properties.Resources.resources
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\corrector1.0_GUI.csproj.GenerateResource.cache
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\corrector1.0_GUI.csproj.CoreCompileInputs.cache
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\corrector1.0_GUI.csproj.CopyComplete
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\VIT_REP_INPUT_IA_GUI.exe
+D:\A_KIM\Ing. Manuel\Corrector\FUENTES\corrector1.0\VIT_REP_INPUT_IA_GUI\obj\Debug\VIT_REP_INPUT_IA_GUI.pdb

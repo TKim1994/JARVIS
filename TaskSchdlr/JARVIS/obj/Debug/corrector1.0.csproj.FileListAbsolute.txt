@@ -1,0 +1,26 @@
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\bin\Debug\EPPlus.dll
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\bin\Debug\EPPlus.xml
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csprojAssemblyReference.cache
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\VIT_REP_INPUT_IA_GUI.frmCRRECTR.resources
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.GenerateResource.cache
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.CoreCompileInputs.cache
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.CopyComplete
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.exe.config
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.exe
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.pdb
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.Properties.Resources.resources
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.0.exe
+D:\A_KIM\Ing. Manuel\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.0.pdb
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.exe.config
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.exe
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\bin\Debug\Corrector1.0.pdb
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\bin\Debug\EPPlus.dll
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\bin\Debug\EPPlus.xml
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csprojAssemblyReference.cache
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\VIT_REP_INPUT_IA_GUI.frmCRRECTR.resources
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.Properties.Resources.resources
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.GenerateResource.cache
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.CoreCompileInputs.cache
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\corrector1.0.csproj.CopyComplete
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.0.exe
+D:\A_KIM\JAQHES\Proyectos\2_JAQHES\Corrector\corrector1.0\corrector1.0\obj\Debug\Corrector1.0.pdb

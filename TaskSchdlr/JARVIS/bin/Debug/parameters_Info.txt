@@ -1,0 +1,5 @@
+01_JAQHES_V2,Daily,09:30,mins,5,hours,3
+
+01_JAQHES_V2,Weekly,1234,19:30,mins,5,hours,3
+
+01_JAQHES_V2,Monthly,01.10.12.,011315282930,19:30,mins,5,hours,3
