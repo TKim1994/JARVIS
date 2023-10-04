@@ -8,4 +8,3 @@ git pull origin main
 Para subir:
 git commit -m "Comentario del commit"
 git push -u origin HEAD:main
-
