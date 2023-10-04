@@ -3,7 +3,7 @@ git init : para crear la carpeta oculta ".git"
 git remote add origin https://github.com/TKim1994/JARVIS.git
 
 Para descargar:
-git pull origin main
+git pull origin HEAD:main
 
 Para subir:
 git commit -m "Comentario del commit"
