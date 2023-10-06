@@ -47,6 +47,10 @@ namespace JARVISNamespace
             {
                 _strCorrelativos_xlsx = _strCorrelativos_xlsx.Replace("My Drive", "Mi unidad");
             }
+            else if (PC_name == "FRIDAY8")
+            {
+                _strCorrelativos_xlsx = _strCorrelativos_xlsx.Replace("Mi unidad", "My Drive");
+            }
 
             string _strPendientes_folder = _strCorrelativos_xlsx.Split(new string[] { "001_Correlativos.xlsx" }, StringSplitOptions.None)[0];
             textBox3.Text = _strCorrelativos_xlsx;
