@@ -218,3 +218,33 @@ G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.CoreCom
 G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
 G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.exe
 G:\Otros ordenadores\THINKPAD P70\00_JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.pdb
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe.config
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.exe
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\J4QH3S_MANAGER.pdb
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\ASquare.WindowsTaskScheduler.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\EPPlus.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\EPPlus.xml
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\View.csproj.AssemblyReference.cache
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form5.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form4.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form3.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form2.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form1.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form6.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form8.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\JARVISNamespace.Form7.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.Properties.Resources.resources
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\View.csproj.GenerateResource.cache
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\View.csproj.CopyComplete
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.exe
+D:\D_Documents\AKim\02_KimIndustries\GIT_Projects\JARVIS\JARVIS\obj\Debug\J4QH3S_MANAGER.pdb
