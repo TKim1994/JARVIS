@@ -6,5 +6,6 @@ Para descargar:
 git pull origin HEAD:main
 
 Para subir:
+git add .
 git commit -m "Comentario del commit"
 git push -u origin HEAD:main
