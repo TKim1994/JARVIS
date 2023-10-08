@@ -728,13 +728,13 @@ namespace JARVISNamespace
                     {
                         if (Convert.ToString(worksheet1.Cells[y, 1].Value) == folder_correlativo_name)
                         {
-                            worksheet1.DeleteRow(y);
                             string folder_a_borrar = _strPendientes_folder + @"\" + folder_correlativo_name;
                             if (Directory.Exists(folder_a_borrar))
                             {
                                 DialogResult dialogResult = MessageBox.Show("Sure about DELETION of " + folder_a_borrar + " ? (IRREVERSIBLE ACTION)", "JAQH3S_MANAGER", MessageBoxButtons.YesNo);
                                 if (dialogResult == DialogResult.Yes)
                                 {
+                                    worksheet1.DeleteRow(y);
                                     Directory.Delete(folder_a_borrar, true);
                                     MessageBox.Show(_strPendientes_folder + @"\" + folder_a_borrar + " has just been ERASED!");
                                 }
