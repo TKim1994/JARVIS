@@ -19,6 +19,7 @@ using OfficeOpenXml.Style;
 using System.Diagnostics;
 
 using System.Media;
+using OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
 
 namespace JARVISNamespace
 {
@@ -93,6 +94,9 @@ namespace JARVISNamespace
                         Lst_Categorias_ID.Add(objCorrelativo.ID_Correlativo.Substring(0, 5).Replace("_", ""));
                     }
                 }
+
+                LstCorrelativos.Reverse();
+                Lst_Categorias_ID.Reverse();
                 loaddata(LstCorrelativos);
             }
             else
@@ -483,12 +487,12 @@ namespace JARVISNamespace
                 try
                 {
                     DirectoryInfo di = Directory.CreateDirectory(_strPendientes_folder + @"\" + folderBotName);
-                    MessageBox.Show(_strPendientes_folder + @"\" + folderBotName + " se acaba de crear!");
+                    MessageBox.Show(_strPendientes_folder + @"\" + folderBotName + " has just been CREATED!");
                     Process.Start(_strPendientes_folder + @"\" + folderBotName);
                 }
                 catch
                 {
-                    MessageBox.Show(_strPendientes_folder + @"\" + folderBotName + " no se pudo crear!");
+                    MessageBox.Show(_strPendientes_folder + @"\" + folderBotName + " could not have been CREATED!");
                 }
             }
         }
@@ -692,6 +696,63 @@ namespace JARVISNamespace
         private void pictureBox5_Click(object sender, EventArgs e)
         {
            Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PUSH.lnk");
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Process.Start(textBox3.Text);
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            string _strCorrelativos_xlsx = textBox3.Text;
+            string _strPendientes_folder = _strCorrelativos_xlsx.Split(new string[] { "001_Correlativos.xlsx" }, StringSplitOptions.None)[0];
+
+            int rowindex = dataGridView1.CurrentCell.RowIndex;
+            //int columnindex = dataGridView1.CurrentCell.ColumnIndex;
+
+            string folder_correlativo_name = dataGridView1.Rows[rowindex].Cells[0].Value.ToString();
+
+            //Borra entrada
+            FileInfo existingFile1 = new FileInfo(_strCorrelativos_xlsx);
+            using (ExcelPackage package1 = new ExcelPackage(existingFile1))
+            {
+                ExcelWorksheet worksheet1 = package1.Workbook.Worksheets[1];
+
+                int cCount1 = worksheet1.Dimension.End.Column;  //get Column Count
+                int rCount1 = worksheet1.Dimension.End.Row;  //get Row Count
+
+                for (int y = 2; y <= rCount1 + 10; y++)
+                {
+                    if (Convert.ToString(worksheet1.Cells[y, 1].Value) != "")
+                    {
+                        if (Convert.ToString(worksheet1.Cells[y, 1].Value) == folder_correlativo_name)
+                        {
+                            worksheet1.DeleteRow(y);
+                            string folder_a_borrar = _strPendientes_folder + @"\" + folder_correlativo_name;
+                            if (Directory.Exists(folder_a_borrar))
+                            {
+                                DialogResult dialogResult = MessageBox.Show("Sure about DELETION of " + folder_a_borrar + " ? (IRREVERSIBLE ACTION)", "JAQH3S_MANAGER", MessageBoxButtons.YesNo);
+                                if (dialogResult == DialogResult.Yes)
+                                {
+                                    Directory.Delete(folder_a_borrar, true);
+                                    MessageBox.Show(_strPendientes_folder + @"\" + folder_a_borrar + " has just been ERASED!");
+                                }
+                            }
+                            break;
+                        }
+                    }
+                }
+                package1.Save();
+            }
+
+            LstCorrelativos = new List<Correlativo>();
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+
+            dataGridView1.ClearSelection();
+
+            Form8_Load_2();
         }
     }
 }
