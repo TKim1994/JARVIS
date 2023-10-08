@@ -671,17 +671,27 @@ namespace JARVISNamespace
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\FRIDAY8\Desktop\1shutdown.exe");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_shutdown.cmd");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\FRIDAY8\Desktop\2reboot.exe");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_reboot.cmd");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Process.Start(@"C:\Users\FRIDAY8\Desktop\3stop.exe");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_stop.cmd");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+           Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PUSH.lnk");
         }
     }
 }
