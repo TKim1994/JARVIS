@@ -59,7 +59,7 @@ namespace JARVISNamespace
             if (File.Exists(_strCorrelativos_xlsx))
             {
                 //Lee el xlsx
-                FileInfo existingFile1 = new FileInfo(_strCorrelativos_xlsx);
+                FileInfo existingFile1 = new FileInfo(_strCorrelativos_xlsx.Replace("\r","").Replace("\n", ""));
                 using (ExcelPackage package1 = new ExcelPackage(existingFile1))
                 {
                     ExcelWorksheet worksheet1 = package1.Workbook.Worksheets[1];
