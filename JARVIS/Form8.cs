@@ -754,5 +754,10 @@ namespace JARVISNamespace
 
             Form8_Load_2();
         }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            Process.Start(Directory.GetCurrentDirectory() + @"\ScreenOff.ahk");
+        }
     }
 }
