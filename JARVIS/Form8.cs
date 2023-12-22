@@ -32,6 +32,7 @@ namespace JARVISNamespace
 
         List<Correlativo> LstCorrelativos = new List<Correlativo>();
         List<string> Lst_Categorias_ID = new List<string>();
+        string gDrive_path = "";
         private void Form8_Load(object sender, EventArgs e)
         {
             Form8_Load_2();
@@ -47,11 +48,14 @@ namespace JARVISNamespace
             if (PC_name == "FRIDAY10")
             {
                 _strCorrelativos_xlsx = _strCorrelativos_xlsx.Replace("My Drive", "Mi unidad");
+                gDrive_path = "FRIDAY10";
             }
             else if (PC_name == "FRIDAY8")
             {
                 _strCorrelativos_xlsx = _strCorrelativos_xlsx.Replace("Mi unidad", "My Drive");
+                gDrive_path = "FRIDAY8";
             }
+
 
             string _strPendientes_folder = _strCorrelativos_xlsx.Split(new string[] { "001_Correlativos.xlsx" }, StringSplitOptions.None)[0];
             textBox3.Text = _strCorrelativos_xlsx;
@@ -758,6 +762,22 @@ namespace JARVISNamespace
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             Process.Start(Directory.GetCurrentDirectory() + @"\ScreenOff.ahk");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\gaming_mode\\gaming_mode.exe"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\gaming_mode\\gaming_mode.exe");
+            }
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero.exe"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero.exe ", gDrive_path);
+            }
         }
     }
 }
