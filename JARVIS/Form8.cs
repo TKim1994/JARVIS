@@ -679,17 +679,17 @@ namespace JARVISNamespace
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            Process.Start(Directory.GetCurrentDirectory() + @"\0_shutdown.cmd");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_shutdown_1.exe");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Process.Start(Directory.GetCurrentDirectory() + @"\0_reboot.cmd");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_reboot_1.exe");
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            Process.Start(Directory.GetCurrentDirectory() + @"\0_stop.cmd");
+            Process.Start(Directory.GetCurrentDirectory() + @"\0_stop_1.exe");
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
