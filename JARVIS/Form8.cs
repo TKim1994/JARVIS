@@ -120,28 +120,38 @@ namespace JARVISNamespace
 
 
             // Relena textos complementarios
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PUSH.txt"))
+            string cloud_name = "";
+            if (PC_name == "FRIDAY8")
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PUSH.txt");
+                cloud_name = "My Drive";
+            }
+            else if (PC_name == "FRIDAY10")
+            {
+                cloud_name = "My unidad";
+            }
+            //
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt"))
+            {
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt");
                 label6.Text = "FRIDAY8_LAST_PUSH: ";
                 label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PULL.txt"))
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PULL.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt");
                 label6.Text = "FRIDAY8_LAST_PULL: ";
                 label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
             //
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PUSH.txt"))
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PUSH.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt");
                 label8.Text = "FRIDAY10_LAST_PUSH: ";
                 label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PULL.txt"))
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PULL.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt");
                 label8.Text = "FRIDAY10_LAST_PULL: ";
                 label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
@@ -809,28 +819,41 @@ namespace JARVISNamespace
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PUSH.txt"))
+            string PC_name = System.Environment.MachineName;
+            string cloud_name = "";
+            if (PC_name == "FRIDAY8")
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PUSH.txt");
+                cloud_name = "My Drive";
+            }
+            else if (PC_name == "FRIDAY10")
+            {
+                cloud_name = "My unidad";
+            }
+
+            // --------------------------------------------------------------------------------------------------------------------------------
+
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt"))
+            {
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt");
                 label6.Text = "FRIDAY8_LAST_PUSH: ";
                 label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PULL.txt"))
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY8_LAST_PULL.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt");
                 label6.Text = "FRIDAY8_LAST_PULL: ";
                 label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
             //
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PUSH.txt"))
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PUSH.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt");
                 label8.Text = "FRIDAY10_LAST_PUSH: ";
                 label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PULL.txt"))
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt"))
             {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\FRIDAY10_LAST_PULL.txt");
+                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt");
                 label8.Text = "FRIDAY10_LAST_PULL: ";
                 label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
