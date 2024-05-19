@@ -709,43 +709,11 @@ namespace JARVISNamespace
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
-
-            System.Threading.Thread.Sleep(5000);
-
-            // Relena textos complementarios
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt");
-                label6.Text = "LAST_PUSH: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt");
-                label6.Text = "LAST_PUSH: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PUSH.lnk");
-
-            System.Threading.Thread.Sleep(5000);
-
-            // Relena textos complementarios
-            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt");
-                label6.Text = "LAST_PUSH: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
-            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt");
-                label6.Text = "LAST_PUSH: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
@@ -823,6 +791,23 @@ namespace JARVISNamespace
             if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero.exe"))
             {
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero.exe ", gDrive_path);
+            }
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            // Relena textos complementarios
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt"))
+            {
+                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PUSH.txt");
+                label6.Text = "LAST_PUSH: ";
+                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
+            }
+            else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt"))
+            {
+                DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt");
+                label6.Text = "LAST_PULL: ";
+                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
         }
     }
