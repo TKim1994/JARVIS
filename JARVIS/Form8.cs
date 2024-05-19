@@ -129,7 +129,7 @@ namespace JARVISNamespace
             else if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt"))
             {
                 DateTime lastModified = System.IO.File.GetLastWriteTime("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\LAST_PULL.txt");
-                label6.Text = "LAST_PUSH: ";
+                label6.Text = "LAST_PULL: ";
                 label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
 
