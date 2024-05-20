@@ -127,7 +127,7 @@ namespace JARVISNamespace
             }
             else if (PC_name == "FRIDAY10")
             {
-                cloud_name = "My unidad";
+                cloud_name = "Mi unidad";
             }
             //
             if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt"))
@@ -827,7 +827,7 @@ namespace JARVISNamespace
             }
             else if (PC_name == "FRIDAY10")
             {
-                cloud_name = "My unidad";
+                cloud_name = "Mi unidad";
             }
 
             // --------------------------------------------------------------------------------------------------------------------------------
