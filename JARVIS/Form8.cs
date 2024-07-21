@@ -731,7 +731,15 @@ namespace JARVISNamespace
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            foreach (var process in Process.GetProcessesByName("screen_placer_script"))
+            {
+                process.Kill();
+            }
+
             Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
+            
+            System.Threading.Thread.Sleep(15000);
+            Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\ini\\screen_placer_script.lnk");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
