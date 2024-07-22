@@ -866,5 +866,13 @@ namespace JARVISNamespace
                 label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
             }
         }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero_3.exe"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero_3.exe ", gDrive_path);
+            }
+        }
     }
 }
