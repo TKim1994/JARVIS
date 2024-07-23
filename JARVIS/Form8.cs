@@ -737,9 +737,8 @@ namespace JARVISNamespace
             }
 
             Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
-            
-            System.Threading.Thread.Sleep(15000);
-            Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\ini\\screen_placer_script.lnk");
+
+            Application.Exit();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
