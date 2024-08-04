@@ -873,5 +873,13 @@ namespace JARVISNamespace
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero_3.exe ", gDrive_path);
             }
         }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\Auto_Insta360\\Auto_Insta360.exe"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\Auto_Insta360\\Auto_Insta360.exe");
+            }
+        }
     }
 }
