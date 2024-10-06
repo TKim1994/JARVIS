@@ -881,5 +881,13 @@ namespace JARVISNamespace
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\Auto_Insta360\\Auto_Insta360.exe");
             }
         }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\Auto_RDP\\Auto_RDP.exe"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\Auto_RDP\\Auto_RDP.exe");
+            }
+        }
     }
 }
