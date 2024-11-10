@@ -731,14 +731,36 @@ namespace JARVISNamespace
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            foreach (var process in Process.GetProcessesByName("screen_placer_script"))
+            if (checkBox15.Checked == true)
             {
-                process.Kill();
+                DialogResult dialogResult = MessageBox.Show("all_PULL_forced?", "JARVIS_Watcher", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    foreach (var process in Process.GetProcessesByName("screen_placer_script"))
+                    {
+                        process.Kill();
+                    }
+
+                    Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL_forced.lnk");
+
+                    Application.Exit();
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    //do something else
+                }
             }
+            else
+            {
+                foreach (var process in Process.GetProcessesByName("screen_placer_script"))
+                {
+                    process.Kill();
+                }
 
-            Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\all_PULL.lnk");
 
-            Application.Exit();
+                Application.Exit();
+            }
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
