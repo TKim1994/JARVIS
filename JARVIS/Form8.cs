@@ -20,6 +20,7 @@ using System.Diagnostics;
 
 using System.Media;
 using OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace JARVISNamespace
 {
@@ -63,7 +64,7 @@ namespace JARVISNamespace
             if (File.Exists(_strCorrelativos_xlsx))
             {
                 //Lee el xlsx
-                FileInfo existingFile1 = new FileInfo(_strCorrelativos_xlsx.Replace("\r","").Replace("\n", ""));
+                FileInfo existingFile1 = new FileInfo(_strCorrelativos_xlsx.Replace("\r", "").Replace("\n", ""));
                 using (ExcelPackage package1 = new ExcelPackage(existingFile1))
                 {
                     ExcelWorksheet worksheet1 = package1.Workbook.Worksheets[1];
@@ -157,6 +158,7 @@ namespace JARVISNamespace
             }
 
 
+            git_function_1();
 
 
             comboBox2.Text = "KIM";
@@ -848,44 +850,7 @@ namespace JARVISNamespace
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            string PC_name = System.Environment.MachineName;
-            string cloud_name = "";
-            if (PC_name == "FRIDAY8")
-            {
-                cloud_name = "My Drive";
-            }
-            else if (PC_name == "FRIDAY10")
-            {
-                cloud_name = "Mi unidad";
-            }
-
-            // --------------------------------------------------------------------------------------------------------------------------------
-
-            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt");
-                label6.Text = "FRIDAY8_LAST_PUSH: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
-            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt");
-                label6.Text = "FRIDAY8_LAST_PULL: ";
-                label7.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
-            //
-            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt");
-                label8.Text = "FRIDAY10_LAST_PUSH: ";
-                label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
-            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt"))
-            {
-                DateTime lastModified = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt");
-                label8.Text = "FRIDAY10_LAST_PULL: ";
-                label9.Text = lastModified.ToString("dd/MM/yyyy HH:mm:ss");
-            }
+            git_function_1();
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
@@ -921,6 +886,106 @@ namespace JARVISNamespace
             else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\KIM__1310202445733\\songsterr_bypasser\\songsterr_bypasser.exe"))
             {
                 Process.Start("G:\\My Drive\\01_Personal\\01_Items\\KIM__1310202445733\\songsterr_bypasser\\songsterr_bypasser.exe");
+            }
+        }
+
+        private void git_function_1()
+        {
+            string PC_name = System.Environment.MachineName;
+            string cloud_name = "";
+            if (PC_name == "FRIDAY8")
+            {
+                cloud_name = "My Drive";
+            }
+            else if (PC_name == "FRIDAY10")
+            {
+                cloud_name = "Mi unidad";
+            }
+
+            DateTime A = new DateTime(); //F8_PUSH_lastModified
+            DateTime B = new DateTime(); //F8_PULL_lastModified
+            DateTime C = new DateTime(); //F10_PUSH_lastModified
+            DateTime D = new DateTime(); //F10_PULL_lastModified
+            string txt_msg = "";
+
+            // --------------------------------------------------------------------------------------------------------------------------------
+
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt"))
+            {
+                A = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PUSH.txt");
+                label6.Text = "FRIDAY8_LAST_PUSH: ";
+                label7.Text = A.ToString("dd/MM/yyyy HH:mm:ss");
+            }
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt"))
+            {
+                B = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY8_LAST_PULL.txt");
+                label6.Text = "FRIDAY8_LAST_PULL: ";
+                label7.Text = B.ToString("dd/MM/yyyy HH:mm:ss");
+            }
+            //
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt"))
+            {
+                C = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PUSH.txt");
+                label8.Text = "FRIDAY10_LAST_PUSH: ";
+                label9.Text = C.ToString("dd/MM/yyyy HH:mm:ss");
+            }
+            else if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt"))
+            {
+                D = System.IO.File.GetLastWriteTime("G:\\" + cloud_name + "\\01_Personal\\01_Items\\KIM__1905202467243\\FRIDAY10_LAST_PULL.txt");
+                label8.Text = "FRIDAY10_LAST_PULL: ";
+                label9.Text = D.ToString("dd/MM/yyyy HH:mm:ss");
+            }
+
+            // --------------------------------------------------------------------------------------------------------------------------------
+            // Colorea el checkBox16 segun este syncronizado o no
+            bool sync = false;
+            if (A != DateTime.MinValue && C != DateTime.MinValue)
+            {
+                sync = false;
+                txt_msg = "DANGER! 2 last pushes";
+            }
+            else if (A != DateTime.MinValue && D != DateTime.MinValue)
+            {
+                if (A > D) //push de F8 > pull de F10
+                {
+                    sync = false;
+                    txt_msg = "Do pull from F10";
+                }
+                else //push de F8 < pull de F10
+                {
+                    sync = true;
+                    txt_msg = "-";
+                }
+            }
+            else if (B != DateTime.MinValue && C != DateTime.MinValue)
+            {
+                if (B > C) //pull de F8 > push de F10
+                {
+                    sync = true;
+                    txt_msg = "-";
+                }
+                else //pull de F8 < push de F10
+                {
+                    sync = false;
+                    txt_msg = "Do pull from F8";
+                }
+            }
+            else if (B != DateTime.MinValue && D != DateTime.MinValue)
+            {
+                sync = true;
+                txt_msg = "-";
+            }
+
+            if (sync) { textBox2.BackColor = Color.Green; }
+            else { textBox2.BackColor = Color.Red; }
+            label10.Text = txt_msg;
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            if (Directory.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts"))
+            {
+                Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts");
             }
         }
     }
