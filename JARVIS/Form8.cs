@@ -942,7 +942,7 @@ namespace JARVISNamespace
             if (A != DateTime.MinValue && C != DateTime.MinValue)
             {
                 sync = false;
-                txt_msg = "DANGER! 2 last pushes";
+                txt_msg = "2 last pushes !!!";
             }
             else if (A != DateTime.MinValue && D != DateTime.MinValue)
             {
