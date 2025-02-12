@@ -988,5 +988,11 @@ namespace JARVISNamespace
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts");
             }
         }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            Form6 newForm6 = new Form6();
+            newForm6.ShowDialog();
+        }
     }
 }
