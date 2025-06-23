@@ -994,5 +994,29 @@ namespace JARVISNamespace
             Form6 newForm6 = new Form6();
             newForm6.ShowDialog();
         }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            if (File.Exists("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt"))
+            {
+                File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
+                using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")){writetext.Write("CLOSED");}
+            }
+            else if (File.Exists("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
+            {
+                File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
+                using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+            }
+            else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt"))
+            {
+                File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
+                using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")) { writetext.Write("CLOSED"); }
+            }
+            else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
+            {
+                File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
+                using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+            }
+        }
     }
 }
