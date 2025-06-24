@@ -1001,21 +1001,25 @@ namespace JARVISNamespace
             {
                 File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")){writetext.Write("CLOSED");}
+                label11.Text = "C";
             }
             else if (File.Exists("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
             {
                 File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+                label11.Text = "O";
             }
             else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt"))
             {
                 File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")) { writetext.Write("CLOSED"); }
+                label11.Text = "C";
             }
             else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
             {
                 File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+                label11.Text = "O";
             }
         }
     }
