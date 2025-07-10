@@ -858,6 +858,16 @@ namespace JARVISNamespace
             {
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero.exe ", gDrive_path);
             }
+
+            //
+            if (label11.Text == "O")
+            {
+                label11.Text = "C";
+            }
+            else if (label11.Text == "C")
+            {
+                label11.Text = "O";
+            }
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
