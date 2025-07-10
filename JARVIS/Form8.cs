@@ -21,6 +21,7 @@ using System.Diagnostics;
 using System.Media;
 using OfficeOpenXml.FormulaParsing.Excel.Functions.RefAndLookup;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+using System.Threading;
 
 namespace JARVISNamespace
 {
@@ -159,6 +160,17 @@ namespace JARVISNamespace
 
 
             git_function_1();
+
+
+            // flag de "Control Financiero"
+            if (File.Exists("G:\\" + cloud_name + "\\01_Personal\\01_Items\\CLOSED.txt"))
+            {
+                label11.Text = "C";
+            }
+            else
+            {
+                label11.Text = "O";
+            }
 
 
             comboBox2.Text = "KIM";
@@ -1001,24 +1013,28 @@ namespace JARVISNamespace
             {
                 File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")){writetext.Write("CLOSED");}
+                Thread.Sleep(500);
                 label11.Text = "C";
             }
             else if (File.Exists("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
             {
                 File.Delete("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\Mi unidad\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+                Thread.Sleep(500);
                 label11.Text = "O";
             }
             else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt"))
             {
                 File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt")) { writetext.Write("CLOSED"); }
+                Thread.Sleep(500);
                 label11.Text = "C";
             }
             else if (File.Exists("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt"))
             {
                 File.Delete("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\CLOSED.txt");
                 using (StreamWriter writetext = File.AppendText("G:\\My Drive\\01_Personal\\01_Items\\CNTRL__0409202244250\\OPENED.txt")) { writetext.Write("OPENED"); }
+                Thread.Sleep(500);
                 label11.Text = "O";
             }
         }
