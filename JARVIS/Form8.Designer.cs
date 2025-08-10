@@ -98,6 +98,11 @@
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -127,6 +132,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -1034,12 +1041,79 @@
             this.label11.TabIndex = 83;
             this.label11.Text = "C";
             // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(1908, 246);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(7);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(71, 60);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 85;
+            this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Consolas", 8F);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(1981, 258);
+            this.label12.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(115, 63);
+            this.label12.TabIndex = 83;
+            this.label12.Text = "REM";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Consolas", 10F);
+            this.label13.ForeColor = System.Drawing.Color.White;
+            this.label13.Location = new System.Drawing.Point(2462, 1647);
+            this.label13.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(63, 36);
+            this.label13.TabIndex = 86;
+            this.label13.Text = "REM";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Consolas", 8F);
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(1981, 331);
+            this.label14.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(232, 63);
+            this.label14.TabIndex = 87;
+            this.label14.Text = "Hor_Sem";
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(1908, 319);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(7);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(71, 60);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox23.TabIndex = 88;
+            this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox23_Click);
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(2250, 1501);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.pictureBox22);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox19);
             this.Controls.Add(this.pictureBox18);
@@ -1094,6 +1168,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1170,5 +1246,10 @@
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.PictureBox pictureBox23;
     }
 }

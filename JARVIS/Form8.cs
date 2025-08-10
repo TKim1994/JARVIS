@@ -1048,5 +1048,43 @@ namespace JARVISNamespace
                 label11.Text = "O";
             }
         }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            string PC_name = System.Environment.MachineName;
+            //
+            string root_name = "";
+
+            if (PC_name == "FRIDAY10")
+            {
+                root_name = "Mi unidad";
+            }
+            else if (PC_name == "FRIDAY8")
+            {
+                root_name = "My Drive";
+            }
+
+            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__0111202439831");
+            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__0111202439831\\REM.xlsx");
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            string PC_name = System.Environment.MachineName;
+            //
+            string root_name = "";
+
+            if (PC_name == "FRIDAY10")
+            {
+                root_name = "Mi unidad";
+            }
+            else if (PC_name == "FRIDAY8")
+            {
+                root_name = "My Drive";
+            }
+
+            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__2202202578444\\Schedule_Generator");
+            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__2202202578444\\Schedule_Generator\\V_actual.xlsx");
+        }
     }
 }
