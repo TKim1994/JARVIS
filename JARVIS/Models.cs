@@ -63,4 +63,11 @@ namespace JARVISNamespace
         public string Estado { get; set; }
     }
 
+    public class Reporte_PBI
+    {
+        public string ID_Correlativo { get; set; }
+        public string Ruta_pbix { get; set; }
+        public string Ruta_data { get; set; }
+        public string Descripcion { get; set; }
+    }
 }

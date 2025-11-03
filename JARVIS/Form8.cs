@@ -550,6 +550,7 @@ namespace JARVISNamespace
                     MessageBox.Show(_strPendientes_folder + @"\" + folderBotName + " could not have been CREATED!");
                 }
             }
+        
         }
 
         private void dataGridView1_CurrentCellChanged(object sender, EventArgs e)
@@ -877,10 +878,15 @@ namespace JARVISNamespace
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
+            /*
             if (File.Exists("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero_3.exe"))
             {
                 Process.Start("D:\\D_Documents\\AKim\\02_KimIndustries\\GIT_Projects\\AHK_Scripts\\01_Control_Financiero\\01_Control_Financiero_3.exe ", gDrive_path);
             }
+            */
+
+            Form7 newForm7 = new Form7();
+            newForm7.Show();
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
@@ -1064,11 +1070,13 @@ namespace JARVISNamespace
                 root_name = "My Drive";
             }
 
-            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__0111202439831");
+            //Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__0111202439831");
             Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__0111202439831\\REM.xlsx");
 
-            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__2202202578444\\Schedule_Generator");
+            //Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__2202202578444\\Schedule_Generator");
             Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\KIM__2202202578444\\Schedule_Generator\\V_actual.xlsx");
+
+            Process.Start("G:\\" + root_name + "\\01_Personal\\01_Items\\CNTRL2510202542661\\01_Control_Gestiones.xlsx");
         }
     }
 }
