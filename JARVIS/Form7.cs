@@ -124,7 +124,11 @@ namespace JARVISNamespace
                 string folderBotName_1 = dataGridView1.Rows[rowindex].Cells[1].Value.ToString();
                 string folderBotName_2 = dataGridView1.Rows[rowindex].Cells[2].Value.ToString();
 
-                if (PC_name == "FRIDAY8") { folderBotName = folderBotName.Replace("Mi unidad", "My Drive"); }
+                if (PC_name == "FRIDAY8")
+                { 
+                    folderBotName_1 = folderBotName_1.Replace("Mi unidad", "My Drive");
+                    folderBotName_2 = folderBotName_2.Replace("Mi unidad", "My Drive");
+                }
 
                 Process.Start(folderBotName_1);
                 Process.Start(folderBotName_2);
